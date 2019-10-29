@@ -1,0 +1,78 @@
+2019-10-08 10:22:13,770 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 24971 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 10:22:13,775 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 10:22:13,805 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-10-08 10:22:15,280 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 10:22:15,583 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 10:22:15,597 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 10:22:15,769 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 10:22:15,802 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 10:22:15,824 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 10:22:16,409 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 10:22:16,487 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 3.089 seconds (JVM running for 3.743)
+2019-10-08 10:22:16,714 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Tue Oct 08 10:22:13 BRT 2019
+2019-10-08 10:22:16,720 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-08 10:52:23,430 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 26904 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 10:52:23,433 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 10:52:23,505 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-10-08 10:52:24,878 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 10:52:25,181 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 10:52:25,198 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 10:52:25,342 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 10:52:25,371 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 10:52:25,388 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 10:52:25,902 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 10:52:25,971 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 2.864 seconds (JVM running for 3.532)
+2019-10-08 10:52:26,140 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Tue Oct 08 10:52:23 BRT 2019
+2019-10-08 10:52:26,144 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-08 17:21:39,377 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 12047 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 17:21:39,379 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 17:21:39,442 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-10-08 17:21:40,760 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 17:21:41,050 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 17:21:41,068 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 17:21:41,216 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 17:21:41,238 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 17:21:41,256 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 17:21:41,841 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 17:21:41,907 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 2.826 seconds (JVM running for 3.508)
+2019-10-08 17:21:42,085 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Tue Oct 08 17:21:39 BRT 2019
+2019-10-08 17:21:42,087 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-08 17:52:25,504 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 14344 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 17:52:25,509 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 17:52:25,576 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce69770
+2019-10-08 17:52:26,940 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 17:52:27,277 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 17:52:27,295 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 17:52:27,434 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 17:52:27,485 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 17:52:27,509 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 17:52:28,048 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 17:52:28,112 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 2.941 seconds (JVM running for 3.585)
+2019-10-08 17:52:28,298 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce69770, started on Tue Oct 08 17:52:25 BRT 2019
+2019-10-08 17:52:28,301 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-08 18:25:11,319 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 17513 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 18:25:11,325 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 18:25:11,516 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-10-08 18:25:14,782 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 18:25:15,428 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 18:25:15,454 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 18:25:15,610 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 18:25:15,712 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 18:25:15,778 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 18:25:17,197 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 18:25:17,363 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 6.91 seconds (JVM running for 8.376)
+2019-10-08 18:25:17,821 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Tue Oct 08 18:25:11 BRT 2019
+2019-10-08 18:25:17,841 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-08 18:30:10,976 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 17929 (started by dhiego in /home/dhiego/Drive/Developer/Claro/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-10-08 18:30:10,983 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-08 18:30:11,057 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-10-08 18:30:14,778 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-10-08 18:30:15,549 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-08 18:30:15,601 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-10-08 18:30:15,803 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-10-08 18:30:15,874 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-10-08 18:30:15,919 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-10-08 18:30:17,195 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-10-08 18:30:17,367 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 7.122 seconds (JVM running for 8.478)
+2019-10-08 18:30:17,808 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Tue Oct 08 18:30:11 BRT 2019
+2019-10-08 18:30:17,829 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'

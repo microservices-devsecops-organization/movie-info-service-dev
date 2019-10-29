@@ -1,0 +1,176 @@
+2019-09-11 10:01:15,370 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 9886 (started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 10:01:15,389 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 10:01:15,499 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-09-11 10:01:17,428 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 10:01:17,730 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 10:01:17,745 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 10:01:17,830 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 10:01:17,967 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 10:01:18,011 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 10:01:18,643 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 10:01:18,723 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 4.361 seconds (JVM running for 5.823)
+2019-09-11 10:01:19,011 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Wed Sep 11 10:01:15 BRT 2019
+2019-09-11 10:01:19,014 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 10:57:01,931 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplication on localhost.localdomain with PID 12457 (/home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service/target/classes started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 10:57:01,965 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 10:57:03,788 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2019-09-11 10:57:03,829 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2019-09-11 10:57:03,847 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-11 10:57:03,848 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-11 10:57:03,931 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-11 10:57:03,931 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-09-11 10:57:03,931 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1823 ms
+2019-09-11 10:57:04,207 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 10:57:04,316 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 10:57:04,324 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 10:57:04,353 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 10:57:04,370 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 10:57:04,376 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 10:57:04,690 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 10:57:04,726 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2019-09-11 10:57:04,759 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2019-09-11 10:57:04,763 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplication in 3.495 seconds (JVM running for 4.358)
+2019-09-11 10:57:07,491 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(4)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 10:57:07,492 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2019-09-11 10:57:07,492 DEBUG org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(4)-127.0.0.1] Detected StandardServletMultipartResolver
+2019-09-11 10:57:07,500 DEBUG org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-09-11 10:57:07,501 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(4)-127.0.0.1] Completed initialization in 8 ms
+2019-09-11 10:57:13,001 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2019-09-11 10:57:13,008 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 10:57:17,592 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplication on localhost.localdomain with PID 12548 (/home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service/target/classes started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 10:57:17,600 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 10:57:18,516 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2019-09-11 10:57:18,525 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8082"]
+2019-09-11 10:57:18,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-11 10:57:18,532 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-09-11 10:57:18,578 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-11 10:57:18,579 DEBUG org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-09-11 10:57:18,579 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 902 ms
+2019-09-11 10:57:18,861 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 10:57:18,925 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 10:57:18,933 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 10:57:18,960 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 10:57:18,968 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 10:57:18,974 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 10:57:19,198 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 10:57:19,235 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8082"]
+2019-09-11 10:57:19,245 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2019-09-11 10:57:19,248 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplication in 1.988 seconds (JVM running for 2.335)
+2019-09-11 10:57:22,902 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 10:57:22,902 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2019-09-11 10:57:22,902 DEBUG org.springframework.web.servlet.DispatcherServlet [RMI TCP Connection(3)-127.0.0.1] Detected StandardServletMultipartResolver
+2019-09-11 10:57:22,910 DEBUG org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-09-11 10:57:22,910 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 8 ms
+2019-09-11 10:59:29,263 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-2] Found correlationId in Header : 12345678
+2019-09-11 10:59:29,269 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-1] Found correlationId in Header : 12345678
+2019-09-11 10:59:29,306 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] GET "/movies/5678", parameters={}
+2019-09-11 10:59:29,306 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] GET "/movies/5678", parameters={}
+2019-09-11 10:59:29,314 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-1] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:29,314 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-2] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:34,364 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:34,364 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:34,367 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] Writing [br.com.clarobr.movieinfoservice.models.Movie@7124b325]
+2019-09-11 10:59:34,367 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] Writing [br.com.clarobr.movieinfoservice.models.Movie@15b0fca3]
+2019-09-11 10:59:34,396 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-2] Completed 200 OK
+2019-09-11 10:59:34,396 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed 200 OK
+2019-09-11 10:59:34,904 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-4] Found correlationId in Header : 12345678
+2019-09-11 10:59:34,904 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-3] Found correlationId in Header : 12345678
+2019-09-11 10:59:34,905 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-4] GET "/movies/5678", parameters={}
+2019-09-11 10:59:34,905 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-3] GET "/movies/5678", parameters={}
+2019-09-11 10:59:34,911 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-4] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:34,918 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-3] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:39,918 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:39,920 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-4] Writing [br.com.clarobr.movieinfoservice.models.Movie@46a77411]
+2019-09-11 10:59:39,922 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:39,924 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-3] Writing [br.com.clarobr.movieinfoservice.models.Movie@2713c692]
+2019-09-11 10:59:39,926 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-4] Completed 200 OK
+2019-09-11 10:59:39,932 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-3] Completed 200 OK
+2019-09-11 10:59:40,434 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-5] Found correlationId in Header : 12345678
+2019-09-11 10:59:40,435 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-5] GET "/movies/5678", parameters={}
+2019-09-11 10:59:40,436 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-6] Found correlationId in Header : 12345678
+2019-09-11 10:59:40,437 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-6] GET "/movies/5678", parameters={}
+2019-09-11 10:59:40,438 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-5] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:40,439 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-6] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 10:59:45,440 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:45,441 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 10:59:45,442 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-5] Writing [br.com.clarobr.movieinfoservice.models.Movie@3132b5e9]
+2019-09-11 10:59:45,442 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-6] Writing [br.com.clarobr.movieinfoservice.models.Movie@5bf0b0e8]
+2019-09-11 10:59:45,443 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-5] Completed 200 OK
+2019-09-11 10:59:45,443 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-6] Completed 200 OK
+2019-09-11 11:02:30,924 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-9] Found correlationId in Header : 12345678
+2019-09-11 11:02:30,924 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-8] Found correlationId in Header : 12345678
+2019-09-11 11:02:30,930 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-8] GET "/movies/5678", parameters={}
+2019-09-11 11:02:30,930 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-9] GET "/movies/5678", parameters={}
+2019-09-11 11:02:30,932 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-8] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:02:30,932 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-9] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:02:35,934 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:02:35,934 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:02:35,935 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-9] Writing [br.com.clarobr.movieinfoservice.models.Movie@29b4d721]
+2019-09-11 11:02:35,935 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-8] Writing [br.com.clarobr.movieinfoservice.models.Movie@7459813]
+2019-09-11 11:02:35,939 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-9] Completed 200 OK
+2019-09-11 11:02:35,939 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-8] Completed 200 OK
+2019-09-11 11:09:07,468 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-10] Found correlationId in Header : 12345678
+2019-09-11 11:09:07,469 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-2] Found correlationId in Header : 12345678
+2019-09-11 11:09:07,482 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-10] GET "/movies/5678", parameters={}
+2019-09-11 11:09:07,482 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] GET "/movies/5678", parameters={}
+2019-09-11 11:09:07,484 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-10] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:09:07,484 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-2] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:09:12,486 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:09:12,486 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:09:12,488 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-2] Writing [br.com.clarobr.movieinfoservice.models.Movie@61035810]
+2019-09-11 11:09:12,488 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-10] Writing [br.com.clarobr.movieinfoservice.models.Movie@2b42c9ad]
+2019-09-11 11:09:12,492 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-2] Completed 200 OK
+2019-09-11 11:09:12,498 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-10] Completed 200 OK
+2019-09-11 11:10:58,180 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-1] Found correlationId in Header : 12345678
+2019-09-11 11:10:58,180 INFO br.com.clarobr.movieinfoservice.correlation.CorrelationHeaderFilter [http-nio-8082-exec-4] Found correlationId in Header : 12345678
+2019-09-11 11:10:58,181 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-4] GET "/movies/5678", parameters={}
+2019-09-11 11:10:58,181 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] GET "/movies/5678", parameters={}
+2019-09-11 11:10:58,183 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-4] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:10:58,184 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8082-exec-1] Mapped to public br.com.clarobr.movieinfoservice.models.Movie br.com.clarobr.movieinfoservice.resources.MovieResource.getMovieInfo(java.lang.String,org.springframework.http.HttpHeaders)
+2019-09-11 11:11:03,185 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:11:03,186 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8082-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-09-11 11:11:03,186 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-4] Writing [br.com.clarobr.movieinfoservice.models.Movie@486092b5]
+2019-09-11 11:11:03,188 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8082-exec-1] Writing [br.com.clarobr.movieinfoservice.models.Movie@4e238621]
+2019-09-11 11:11:03,190 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-4] Completed 200 OK
+2019-09-11 11:11:03,196 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8082-exec-1] Completed 200 OK
+2019-09-11 11:12:36,336 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(28)-127.0.0.1] Application shutdown requested.
+2019-09-11 11:12:36,342 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(28)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:13:58,520 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 14641 (started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 11:13:58,523 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 11:13:58,586 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c
+2019-09-11 11:14:00,257 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 11:14:00,571 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:14:00,586 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 11:14:00,677 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 11:14:00,701 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 11:14:00,724 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 11:14:01,379 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 11:14:01,457 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 3.316 seconds (JVM running for 4.241)
+2019-09-11 11:14:01,802 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-5] Closing org.springframework.web.context.support.GenericWebApplicationContext@68c9133c, started on Wed Sep 11 11:13:58 BRT 2019
+2019-09-11 11:14:01,811 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:14:27,971 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 14900 (started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 11:14:28,013 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 11:14:28,061 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1750fbeb
+2019-09-11 11:14:29,624 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 11:14:29,962 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:14:29,982 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 11:14:30,058 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 11:14:30,079 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 11:14:30,100 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 11:14:30,649 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 11:14:30,723 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 3.088 seconds (JVM running for 3.763)
+2019-09-11 11:14:31,012 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-5] Closing org.springframework.web.context.support.GenericWebApplicationContext@1750fbeb, started on Wed Sep 11 11:14:28 BRT 2019
+2019-09-11 11:14:31,015 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 14:59:18,282 INFO org.springframework.boot.StartupInfoLogger [main] Starting MovieInfoServiceApplicationTests on localhost.localdomain with PID 28658 (started by dhiego in /home/dhiego/Drive/Developer/Microservices/Claro_Poc/Movel/Integracao/POC/movie-info-service-dev/movie-info-service)
+2019-09-11 14:59:18,333 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-11 14:59:18,473 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2019-09-11 14:59:20,544 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-09-11 14:59:20,862 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 14:59:20,895 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-09-11 14:59:20,983 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 3 mappings in 'requestMappingHandlerMapping'
+2019-09-11 14:59:21,026 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-09-11 14:59:21,043 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-09-11 14:59:21,603 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-11 14:59:21,685 INFO org.springframework.boot.StartupInfoLogger [main] Started MovieInfoServiceApplicationTests in 4.558 seconds (JVM running for 6.173)
+2019-09-11 14:59:22,019 DEBUG org.springframework.context.support.AbstractApplicationContext [Thread-5] Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Wed Sep 11 14:59:18 BRT 2019
+2019-09-11 14:59:22,039 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
