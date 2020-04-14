@@ -1,6 +1,7 @@
 package br.com.clarobr.movieinfoservice.resources;
 
 import org.springframework.http.HttpHeaders;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,12 +13,16 @@ import br.com.clarobr.movieinfoservice.models.Movie;
 @RequestMapping("/movies")
 public class MovieResource {
 
-    @RequestMapping("/{movieId}")
+	@GetMapping("/{movieId}")
     public Movie getMovieInfo(@PathVariable("movieId") String movieId, @RequestHeader HttpHeaders headers) {
-        try {
+//    	headers.forEach((key, value) -> {
+//			System.out.println(String.format("##### Header '%s' = %s", key, value));
+//	    });
+    	
+    	try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			Thread.currentThread().interrupt();
 		}
     	return new Movie(movieId, "Name for movie with ID " + movieId);
     }

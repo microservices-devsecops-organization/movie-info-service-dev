@@ -1,26 +1,24 @@
-FROM amd64/openjdk:8-jre-alpine3.9
+FROM azul/zulu-openjdk-alpine:11-jre
 
 LABEL author="Dhiego Duarte"
 LABEL email="Dhiego.Duarte.terceiros@claro.com.br"
 LABEL company="Claro BR"
-# same version in jar file
-LABEL version="0.0.001-SNAPSHOT" 
-
-RUN apk --no-cache add -u musl=1.1.20-r5 \
-    && apk --no-cache add -u libtasn1=4.14-r0 \
-    && apk --no-cache add libjpeg-turbo=1.5.3-r5
+# same version in jar file 
+LABEL version="1.0.0.RELEASE" 
 
 RUN addgroup -g 3000 movie-info-service-group
+
 RUN adduser -D -g '' -G movie-info-service-group -u 1000 movie-info-service-user
 
 USER movie-info-service-user
+
 WORKDIR /home/movie-info-service-user
 
-COPY --chown=movie-info-service-user:movie-info-service-group target/movie-info-service-0.0.1-SNAPSHOT.jar /home/movie-info-service-user
+COPY --chown=movie-info-service-user:movie-info-service-group target/movie-info-service-1.0.0.RELEASE.jar /home/movie-info-service-user
 
 EXPOSE 8082
 
 ENTRYPOINT ["/usr/bin/java", "-jar"]
 
-CMD ["movie-info-service-0.0.1-SNAPSHOT.jar"]
+CMD ["movie-info-service-1.0.0.RELEASE.jar"]
 
